@@ -5,7 +5,6 @@ namespace Tyuiu.MakarovAY.Sprint4.Task4.V14.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-            int c = 0;
             int rows = matrix.GetUpperBound(0) + 1;
             int colums = matrix.Length / rows;
             for (int i = 0; i < rows; i++)
